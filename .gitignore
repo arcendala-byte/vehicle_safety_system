@@ -1,0 +1,32 @@
+﻿# Logs
+*.log
+logs/
+ai/logs/
+
+# Python
+__pycache__/
+*.pyc
+ai/venv/
+ai/.venv/
+ai/models/*.h5
+ai/models/*.pt
+ai/blackspot/model/*.pkl
+ai/blackspot/model/*.joblib
+ai/blackspot/datasets/*.csv
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Config secrets
+config/secrets.php
+.env
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
