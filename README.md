@@ -212,10 +212,9 @@ Commercial use or redistribution requires permission from the relevant project o
 
 ## 10. Contact and Project Information
 
-**Author:** Dickson Munene Muchiri  
+**Author:** Arcel Ndala  
 **Institution:** Mount Kenya University  
-**School:** School of Computing and Informatics  
-**Registration Number:** DIT/2025/40888  
+**School:** School of Computing and Informatics   
 **Project Supervisor:** Mr. Kelvin Njagi
 
 ---
