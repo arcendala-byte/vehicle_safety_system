@@ -2,7 +2,7 @@
 
 A final-year academic prototype developed for **Mount Kenya University — School of Computing and Informatics**.
 
-**Author:** Dickson Munene Muchiri (DIT/2025/40888)  
+**Author:** Arcel Ndala (BIT/2024/44434)  
 **Supervisor:** Mr. Kelvin Njagi
 
 ---
