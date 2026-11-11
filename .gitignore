@@ -30,3 +30,5 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+# Large video files
+assets/images/hero.mp4

@@ -1,0 +1,1 @@
+"""Utility package for the VEHISAFE AI service."""

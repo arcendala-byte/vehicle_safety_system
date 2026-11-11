@@ -1,0 +1,6 @@
+# One-time-per-session: navigate + activate
+cd C:\xampp2\htdocs\vehicle_safety_system\ai
+.\venv\Scripts\Activate.ps1
+
+# Then (this is the actual command)
+python app.py

@@ -1,0 +1,21 @@
+# ============================================================
+# VEHISAFE - Apache .htaccess (safe version)
+# ============================================================
+
+Options -Indexes
+
+# Block direct access to sensitive file types
+<FilesMatch "\.(log|sql|env|gitignore|md|ini|yml|yaml)$">
+    Require all denied
+</FilesMatch>
+
+# Block sensitive directories
+RedirectMatch 403 ^/vehicle_safety_system/config/.*$
+RedirectMatch 403 ^/vehicle_safety_system/includes/.*$
+RedirectMatch 403 ^/vehicle_safety_system/database/.*$
+RedirectMatch 403 ^/vehicle_safety_system/logs/.*$
+RedirectMatch 403 ^/vehicle_safety_system/\.git/.*$
+
+# Custom error pages
+ErrorDocument 403 /vehicle_safety_system/login.php
+ErrorDocument 404 /vehicle_safety_system/login.php

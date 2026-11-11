@@ -1,0 +1,32 @@
+﻿# ============================================================
+# VEHISAFE AI SERVICE - Python Dependencies
+# ============================================================
+# Python 3.13 compatible versions.
+
+# ---- Web framework ----
+Flask==3.0.3
+Werkzeug==3.0.4
+
+# ---- HTTP client ----
+requests==2.32.3
+
+# ---- Config ----
+python-dotenv==1.0.1
+
+# ---- Logging ----
+colorlog==6.8.2
+
+# ---- Image processing ----
+Pillow==10.4.0
+numpy>=2.0,<2.3
+opencv-python==4.10.0.84
+
+# ---- Detection (YOLO) ----
+ultralytics==8.3.30
+
+# ---- Facial landmarks (Phase 12) ----
+mediapipe==0.10.35
+
+# ============================================================
+# Phase 15 will add: scikit-learn, xgboost, pandas, joblib
+# ============================================================
